@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <form>
+            <b style="padding-left: 1.8cm ;">Amount</b>
+            <b style="padding-left: 4cm;">From Currency</b>
+            <b style="padding-left: 4cm;">To Currency</b>
+            <br>
+            <b><input type="number" id="amount" style="height: 0.6cm;"></b>
+            <b style="padding-left: 5%;"><select id="fromcurrency" style="padding-right: 1cm; height: 0.6cm;">
+                <option value="vietnam">Việt Nam</option>
+                <option value="usa">USA</option>
+            </select></b>
+            <b style="padding-left: 7%;"><select id="tocurrency" style="padding-right: 1cm; height: 0.6cm;">
+                <option value="usa">USA</option>
+                <option value="vietnam">Việt Nam</option>
+            </select></b>
+            <b style="padding-left: 2cm;"><button onclick="check()" style="height: 0.7cm; width: 3cm; background-color: rgb(159, 94, 219); color: white;">Convert</button></b>
+        </form>
+        <h3 id="result"></h3>
+        <script src="cdtt.js"></script>
+    </body>
+</html>
